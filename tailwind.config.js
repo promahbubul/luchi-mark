@@ -19,6 +19,8 @@ export default {
         "gray-text-2": "#5A5A5A",
         "gray-text-3": "#898989",
         "gray-text-4":"#C0C0C0",
+        "gray-text-5":"#A1A1A1",
+        "gray-text-6": "#6C6C6D",
         "gray-input-border": "#1012131F",
         "black-1": "#101213",
         error: "#E85656"

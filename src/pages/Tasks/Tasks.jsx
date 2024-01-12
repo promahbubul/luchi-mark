@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { CgSearch } from "../../assets/Icons/Icons";
 import TaskCard from "./TaskCard";
+import MainHeader from "../../components/MainHeader/MainHeader";
 
 const Tasks = () => {
   const [todos, setTodos] = useState([1, 2]);
@@ -9,6 +10,7 @@ const Tasks = () => {
   const [dones, setdones] = useState([1]);
   return (
     <div>
+      <MainHeader />
       <div className="relative mt-4">
         <input
           type="text"

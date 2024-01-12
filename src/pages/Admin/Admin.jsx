@@ -10,10 +10,10 @@ import Billing from "./Billing";
 const Admin = () => {
   return (
     <div className="">
-      
-      <div className="">
+      <MainHeader />
+      <div className="mt-5">
         <MainTitle>Admin</MainTitle>
-        <div className="flex flex-row gap-10">
+        <div className="flex mt-5 flex-row gap-10">
           {/* left */}
           <div className="w-full">
             <PersonalInformation />

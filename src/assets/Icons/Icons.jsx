@@ -3,16 +3,21 @@ import {
   IoSettingsOutline,
   IoNotificationsOutline,
 } from "react-icons/io5";
-import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
-import { HiOutlineSquares2X2 } from "react-icons/hi2";
+import { IoIosArrowDown, IoIosArrowForward, IoMdGrid } from "react-icons/io";
+import { HiOutlineSquares2X2, HiOutlineVideoCamera } from "react-icons/hi2";
 import { AiOutlineTeam } from "react-icons/ai";
 import { TfiWindow } from "react-icons/tfi";
 import { LuFileDown, LuClipboard } from "react-icons/lu";
 import { CgSearch } from "react-icons/cg";
 import { GrAttachment } from "react-icons/gr";
-import { MdOutlineComment } from "react-icons/md";
+import { MdOutlineComment, MdOutlinePhotoCamera } from "react-icons/md";
+import { PiListFill } from "react-icons/pi";
 
 export {
+  IoMdGrid,
+  PiListFill,
+  MdOutlinePhotoCamera,
+  HiOutlineVideoCamera,
   MdOutlineComment,
   GrAttachment,
   CgSearch,
