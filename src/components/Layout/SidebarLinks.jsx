@@ -6,6 +6,7 @@ import {
   IoTrashOutline,
   IoIosArrowDown,
   IoSettingsOutline,
+  LuClipboard,
 } from "../../assets/Icons/Icons";
 import { Link } from "react-router-dom";
 
@@ -13,6 +14,7 @@ const SidebarLinks = () => {
   const links = [
     { path: "/dashboard", title: "Dashboard", icons: HiOutlineSquares2X2 },
     { path: "/environment", title: "Environment", icons: TfiWindow },
+    { path: "/Tasks", title: "Tasks", icons: LuClipboard },
     { path: "/teams", title: "Teams", icons: AiOutlineTeam },
     { path: "/admin", title: "Admin", icons: IoSettingsOutline },
   ];

@@ -5,6 +5,7 @@ import Environment from "../pages/Emvironment/Environment";
 import Layout from "../Layout/Layout";
 import Admin from "../pages/Admin/Admin";
 import Teams from "../pages/Teams/Teams";
+import Tasks from "../pages/Tasks/Tasks";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
       { path: "/", element: <Dashboard /> },
       { path: "/dashboard", element: <Dashboard /> },
       { path: "/environment", element: <Environment /> },
+      { path: "/tasks", element: <Tasks /> },
       { path: "/teams", element: <Teams /> },
       { path: "/admin", element: <Admin /> },
     ],

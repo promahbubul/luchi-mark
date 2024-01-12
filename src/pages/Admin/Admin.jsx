@@ -9,8 +9,8 @@ import Billing from "./Billing";
 
 const Admin = () => {
   return (
-    <div className="pt-5 px-5 pb-2 h-[calc(100vh-44px)] box-border">
-      <MainHeader />
+    <div className="">
+      
       <div className="">
         <MainTitle>Admin</MainTitle>
         <div className="flex flex-row gap-10">

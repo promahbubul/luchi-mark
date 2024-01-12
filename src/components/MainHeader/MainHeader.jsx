@@ -14,7 +14,7 @@ const MainHeader = () => {
       <div className="">
         <select
           name=""
-          className="text-5xl pr-5 outline-none text-primary font-medium leading-normal bg-transparent"
+          className="text-4xl pr-5 outline-none text-primary font-medium leading-normal bg-transparent"
           id=""
         >
           <option value="" className="">
