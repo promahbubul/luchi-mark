@@ -22,6 +22,7 @@ export default {
         "gray-text-5":"#A1A1A1",
         "gray-text-6": "#6C6C6D",
         "gray-input-border": "#1012131F",
+        "card-border-1": "#A7A7A7",
         "black-1": "#101213",
         error: "#E85656"
       }

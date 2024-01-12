@@ -9,17 +9,7 @@ import {
 import RoundedButton from "../../components/ui/Button/RoundedButton";
 import Button from "../../components/ui/Button/Button";
 
-const Heading = () => {
-  const [layoutView, setLayoutView] = useState("list");
-
-  const handleLayoutView = (view) => {
-    if (view === "grid") {
-      setLayoutView("grid");
-    } else {
-      setLayoutView("list");
-    }
-  };
-
+const Heading = ({ handleLayoutView, layoutView }) => {
   return (
     <div className="flex flex-row justify-between">
       <div className="flex flex-col ">
@@ -69,6 +59,9 @@ const Heading = () => {
               }`}
             />
           </button>
+          <p className="text-gray-text-5 text-xs font-medium leading-normal">
+            Order by <span className="text-primary font-bold">Last edit</span>
+          </p>
         </div>
       </div>
     </div>

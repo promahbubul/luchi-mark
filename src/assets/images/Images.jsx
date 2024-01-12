@@ -5,8 +5,10 @@ import pdfIcon from "./pdf-icon.svg";
 import taskCardImage from "./taskCardImage.png";
 import avatarTwo from "./avatar2.svg";
 import avatarThree from "./avatar3.svg";
+import gridCard from "./grid-card.png";
 
 export {
+  gridCard,
   logo,
   avatar,
   visaIcon,
