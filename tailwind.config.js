@@ -13,8 +13,10 @@ export default {
         "primary-soft-2": "#006DF914",
         "gray-bg-1": "#F0F0F0",
         "gray-bg-2": "#E3E3E3",
+        "gray-bg-3": "#F1F1F1",
         "gray-text-1": "#333333",
         "gray-text-2": "#5A5A5A",
+        "gray-text-3": "#898989",
         "gray-input-border": "#1012131F",
         "black-1": "#101213",
         error: "#E85656"

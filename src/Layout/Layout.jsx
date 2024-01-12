@@ -1,5 +1,6 @@
 import React from "react";
 import Sidebar from "../components/Layout/Sidebar";
+import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
@@ -7,7 +8,9 @@ const Layout = () => {
       {/* Sidebar */}
       <Sidebar />
       {/* Content */}
-      <section className="w-full">container</section>
+      <section className="w-full">
+        <Outlet />
+      </section>
     </div>
   );
 };
