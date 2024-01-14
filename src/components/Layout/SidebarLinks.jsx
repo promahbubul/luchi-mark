@@ -22,7 +22,6 @@ const SidebarLinks = ({ menu, setMenu }) => {
     <div className="lg:mt-20 mt-14 ">
       {links.map((item) => (
         <NavLink
-          onClick={() => setMenu(!menu)}
           to={item.path}
           key={item.title}
           className={`flex group items-center flex-row mb-1 gap-5 border-l-4 border-l-transparent pl-3 py-3  text-gray-text-1  dark:text-gray-text-dark  font-semibold focus:border-l-4 hover:border-l-4 hover:border-primary focus:border-l-primary   `}
