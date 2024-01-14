@@ -4,7 +4,7 @@ import { AiOutlineMessage, IoEyeOutline } from "../../assets/Icons/Icons";
 
 const GridCard = () => {
   return (
-    <div className="border cursor-pointer border-card-border-1 rounded-3xl">
+    <div className="border cursor-pointer border-card-border-1 rounded-3xl h-max">
       <div className="">
         <img src={gridCard} alt="" className="w-full  rounded-t-3xl" />
       </div>
