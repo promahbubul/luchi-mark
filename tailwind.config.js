@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -24,6 +25,8 @@ export default {
         "gray-input-border": "#1012131F",
         "card-border-1": "#A7A7A7",
         "black-1": "#101213",
+        "blue-sidebar": "#08174F",
+        "gray-text-dark": "#AEC2CC",
         error: "#E85656"
       }
     },
