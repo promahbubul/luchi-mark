@@ -15,14 +15,14 @@ const Teams = () => {
         {/* Users */}
         <div className="grid grid-cols-12 pb-5 border-b border-gray-input-border ">
           {/* left */}
-          <div className="col-span-3 ">
+          <div className="col-span-full md:col-span-5 lg:col-span-3 ">
             <MainTitle>Users</MainTitle>
             <Button className={"bg-primary-soft-2 mt-3 text-primary"}>
               Invite new user
             </Button>
           </div>
           {/* right */}
-          <div className="col-span-9 ">
+          <div className=" col-span-full md:col-span-7 lg:col-span-9 md:mt-0 mt-4">
             <div className="flex flex-col gap-2">
               {users.map((user, index) => (
                 <MemberCard key={index} />
@@ -33,11 +33,11 @@ const Teams = () => {
         {/* Pending Users */}
         <div className="grid grid-cols-12 mt-5">
           {/* left */}
-          <div className="col-span-3 ">
+          <div className="col-span-full md:col-span-5 lg:col-span-3 ">
             <MainTitle>Pending Invites</MainTitle>
           </div>
           {/* right */}
-          <div className="col-span-9 ">
+          <div className="col-span-full md:col-span-7 lg:col-span-9 md:mt-0 mt-4">
             <div className="flex flex-col gap-2">
               {pendingUser.map((user, index) => (
                 <PendingCard key={index} />

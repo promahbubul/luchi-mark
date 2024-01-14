@@ -8,7 +8,7 @@ const PaymentCard = () => {
       <SectionTittle>Plan</SectionTittle>
       <div className="mt-4  py-4 px-5 rounded-xl bg-gradient-to-tr from-[#3876FE] to-[#1E4599] text-white ">
         {/* top */}
-        <div className="flex flex-row justify-between  items-center">
+        <div className="flex flex-col lg:flex-row justify-between  items-center">
           <div className="">
             <h2 className="font-medium leading-normal text-xl  ">
               Business PRO

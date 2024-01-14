@@ -12,9 +12,9 @@ const GridCard = () => {
         <h2 className="font-medium text-sm text-black-1 leading-5">
           Comments about Access Management
         </h2>
-        <div className="mt-2 flex flex-row items-center justify-between">
+        <div className="mt-2 flex flex-col gap-2 md:gap-0  lg:flex-row items-center justify-between">
           <div className="flex flex-row items-center gap-2">
-            <img src={avatar} alt="" className="" />
+            <img src={avatar} alt="" className="md:w-auto w-5" />
             <p className="text-xs text-black-1 font-normal">Liam Trampota</p>
           </div>
           <select
@@ -27,18 +27,18 @@ const GridCard = () => {
             </option>
           </select>
         </div>
-        <div className="flex flex-row justify-between p-2">
-          <div className="flex flex-row gap-2">
+        <div className="flex flex-col  lg:flex-row justify-between md:p-2 lg:mt-0 mt-2">
+          <div className="flex flex-row justify-between md:gap-2">
             <button className="text-primary bg-primary-soft-2  rounded-full flex flex-row gap-1.5 px-3 py-1 items-center">
-              <span className="">3</span>
-              <IoEyeOutline className="text-xl" />
+              <span className="md:text-base text-sm">3</span>
+              <IoEyeOutline className="text-sm md:text-xl " />
             </button>
             <button className="text-primary bg-primary-soft-2  rounded-full flex flex-row gap-1.5 px-3 py-1 items-center">
-              <span className="">1</span>
-              <AiOutlineMessage className="text-xl" />
+              <span className="md:text-base text-sm">1</span>
+              <AiOutlineMessage className="text-sm md:text-xl" />
             </button>
           </div>
-          <p className="text-gray-text-5 text-xs font-medium leading-normal">
+          <p className="text-gray-text-5 text-xs font-medium leading-normal text-end mt-2 lg:mt-0">
             2 days ago
           </p>
         </div>

@@ -20,7 +20,7 @@ const Sidebar = () => {
     return document.documentElement.classList.contains("dark");
   };
   return (
-    <section className="bg-gray-bg-1 w-[320px] h-screen py-5 box-border dark:bg-blue-sidebar ">
+    <section className="bg-gray-bg-1 hidden md:block md:w-[320px] h-screen py-5 box-border dark:bg-blue-sidebar ">
       {/* top */}
       <div className="flex flex-col px-5 gap-10">
         <div className="flex flex-row  gap-2 items-center">

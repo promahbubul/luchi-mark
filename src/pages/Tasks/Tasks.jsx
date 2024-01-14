@@ -21,7 +21,7 @@ const Tasks = () => {
         />
         <CgSearch className="absolute top-2 left-1.5 text-xl font-medium text-primary" />
       </div>
-      <div className="grid grid-cols-4 gap-3 mt-6">
+      <div className="grid md:grid-cols-2 md:h-[calc(100vh-196px)] md:overflow-y-scroll md:scrollbar-hide lg:grid-cols-4  gap-3 mt-6">
         {/* Todo */}
         <div className="">
           <h3 className="text-black-1 font-medium text-xl">To do</h3>

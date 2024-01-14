@@ -5,7 +5,7 @@ const Listview = ({ environments }) => {
   return (
     <div className="grid grid-cols-12 mt-5">
       {/* List Heading */}
-      <div className="col-span-12 mb-3 gap-2 px-2 grid grid-cols-12 w-full ">
+      <div className="col-span-12 mb-3 gap-2 px-2 lg:grid grid-cols-12 w-full hidden   ">
         <h5 className="text-gray-text-5 text-sm font-medium leading-normal col-span-2 ">
           Preview
         </h5>

@@ -13,14 +13,14 @@ const Admin = () => {
       <MainHeader />
       <div className="mt-5">
         <MainTitle>Admin</MainTitle>
-        <div className="flex mt-5 flex-row gap-10">
+        <div className="flex mt-5 flex-col md:flex-row  md:gap-5 lg:gap-10">
           {/* left */}
-          <div className="w-full">
+          <div className=" w-full lg:w-full md:w-7/12">
             <PersonalInformation />
             <PaymentCard />
           </div>
           {/* right */}
-          <div className="w-full">
+          <div className=" w-full lg:w-full md:w-5/12">
             <Intigrations />
             <Billing />
           </div>

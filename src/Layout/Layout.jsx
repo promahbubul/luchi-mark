@@ -8,7 +8,7 @@ const Layout = () => {
       {/* Sidebar */}
       <Sidebar />
       {/* Content */}
-      <section className="w-full pt-5 px-5 pb-2 h-[calc(100vh-44px)] box-border">
+      <section className="w-full pt-5 px-3 md:px-5 pb-2  md:h-[calc(100vh-44px)] box-border">
         <Outlet />
       </section>
     </div>
