@@ -37,13 +37,13 @@ const Sidebar = ({ menu, setMenu }) => {
       {menu ? (
         <div
           onClick={() => setMenu(!menu)}
-          className="fixed top-0 right-0 bottom-0 left-0 bg-black-1/70"
+          className="fixed z-[999] top-0 right-0 bottom-0 left-0 bg-black-1/70"
         ></div>
       ) : (
         ""
       )}
       <section
-        className={`bg-gray-bg-1 duration-300 transition-transform  md:block md:w-[320px] h-screen py-5 box-border dark:bg-blue-sidebar ${
+        className={`bg-gray-bg-1 z-[999] duration-300 transition-transform  md:block md:w-[320px] h-screen py-5 box-border dark:bg-blue-sidebar ${
           menu ? "fixed w-10/12" : "hidden"
         }`}
       >
@@ -69,7 +69,7 @@ const Sidebar = ({ menu, setMenu }) => {
           </button>
         </div>
         {/* middle */}
-        <div className="h-[calc(100vh-359.122px)] ">
+        <div className="md:h-[calc(100vh-359.122px)] h-[calc(100vh-380px)]  ">
           <SidebarLinks />
         </div>
         {/* bottom */}
