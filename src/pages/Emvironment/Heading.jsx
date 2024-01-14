@@ -41,7 +41,7 @@ const Heading = ({ handleLayoutView, layoutView }) => {
         </div>
         {/* right bottom */}
         <div className="mt-3 flex justify-between  flex-wrap  lg:flex-row gap-2 items-center">
-          <div className="flex flex-row lg:gap-0  gap-2 md:justify-start justify-between  w-full md:w-max">
+          <div className="flex flex-row lg:gap-5  gap-2 md:justify-start justify-between  w-full md:w-max">
             <Button className={"bg-primary-soft-2 text-primary"}>
               Manage fields
             </Button>
