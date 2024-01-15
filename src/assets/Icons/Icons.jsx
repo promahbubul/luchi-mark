@@ -15,8 +15,11 @@ import { GrAttachment } from "react-icons/gr";
 import { MdOutlineComment, MdOutlinePhotoCamera } from "react-icons/md";
 import { PiListFill } from "react-icons/pi";
 import { FcGoogle } from "react-icons/fc";
+import { RiAdminLine } from "react-icons/ri";
+
 
 export {
+  RiAdminLine,
   FcGoogle,
   IoEyeOffSharp,
   AiOutlineMessage,
