@@ -16,7 +16,7 @@ const Banner = () => {
       >
         Enhance your worflow, today.
       </h1>
-      <div className="h-[calc(100vh-398.467px)]  flex justify-start items-end">
+      <div className="h-max md:h-[calc(100vh-398.467px)]  flex justify-start items-end md:mt-0 mt-5">
         <div className=" w-20 h-20 md:w-44 md:h-44 rounded-full border border-[#d9d9d933] flex items-center justify-center">
           <div
             className="h-16 w-16 md:w-32 md:h-32 rounded-full flex items-center justify-center bg-gradient-to-r from-[#2C4477] to-[#3F6FD7] border border-[#ffffff1f]
