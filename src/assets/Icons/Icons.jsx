@@ -3,6 +3,7 @@ import {
   IoSettingsOutline,
   IoNotificationsOutline,
   IoEyeOutline,
+  IoEyeOffSharp,
 } from "react-icons/io5";
 import { IoIosArrowDown, IoIosArrowForward, IoMdGrid } from "react-icons/io";
 import { HiOutlineSquares2X2, HiOutlineVideoCamera } from "react-icons/hi2";
@@ -13,8 +14,11 @@ import { CgSearch } from "react-icons/cg";
 import { GrAttachment } from "react-icons/gr";
 import { MdOutlineComment, MdOutlinePhotoCamera } from "react-icons/md";
 import { PiListFill } from "react-icons/pi";
+import { FcGoogle } from "react-icons/fc";
 
 export {
+  FcGoogle,
+  IoEyeOffSharp,
   AiOutlineMessage,
   IoEyeOutline,
   IoMdGrid,

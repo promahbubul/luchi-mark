@@ -6,8 +6,12 @@ import taskCardImage from "./taskCardImage.png";
 import avatarTwo from "./avatar2.svg";
 import avatarThree from "./avatar3.svg";
 import gridCard from "./grid-card.png";
+import blackLogo from "./black-logo.svg";
+import whtieLogo from "./white-logo.svg";
 
 export {
+  blackLogo,
+  whtieLogo,
   gridCard,
   logo,
   avatar,
