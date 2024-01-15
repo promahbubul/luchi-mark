@@ -12,7 +12,7 @@ const Banner = () => {
       </div>
       <h1
         className="justify-center md:justify-start mt-6 md:mt-10 text-3xl md:text-5xl lg:text-6xl font-normal
-       md:leading-[88px] md:w-[550px]  leading-tight text-white  "
+       md:leading-[88px] md:w-[550px] md:mx-0 mx-auto   leading-tight text-white md:text-left text-center "
       >
         Enhance your worflow, today.
       </h1>
