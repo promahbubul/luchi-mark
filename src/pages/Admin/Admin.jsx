@@ -13,7 +13,7 @@ const Admin = () => {
       <MainHeader />
       <div className="mt-5">
         <MainTitle>Admin</MainTitle>
-        <div className="flex mt-5 flex-col md:flex-row  md:gap-5 lg:gap-10">
+        <div className="flex mt-5 flex-col md:flex-row  md:gap-5 lg:gap-10 h-[calc(100vh-192.71px)]  overflow-hidden overflow-y-scroll scrollbar-hide">
           {/* left */}
           <div className=" w-full lg:w-full md:w-7/12">
             <PersonalInformation />

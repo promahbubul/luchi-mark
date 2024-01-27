@@ -10,7 +10,7 @@ const Billing = () => {
         <SectionTittle>Billing</SectionTittle>
         <button className="text-primary">Edit</button>
       </div>
-      <div className="mt-5 flex flex-col gap-1 h-[calc(100vh-500px)] overflow-y-auto">
+      <div className="mt-5 flex flex-col gap-1 overflow-y-auto scrollbar-hide">
         {billings.map((billing, index) => (
           <BillingCard key={index} />
         ))}

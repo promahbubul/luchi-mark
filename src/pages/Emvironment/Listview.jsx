@@ -1,7 +1,7 @@
 import React from "react";
 import ListCard from "./ListCard";
 
-const Listview = ({ environments }) => {
+const Listview = ({ environments, setToggleSidebar }) => {
   return (
     <div className="grid grid-cols-12 mt-5">
       {/* List Heading */}
@@ -28,7 +28,7 @@ const Listview = ({ environments }) => {
       {/* List */}
       <div className="col-span-12 grid h-[calc(100vh-181.71px)]  overflow-y-auto scrollbar-hide gap-2 grid-cols-12 w-full">
         {environments.map((environment, index) => (
-          <ListCard key={index} />
+          <ListCard setToggleSidebar={setToggleSidebar} key={index} />
         ))}
       </div>
     </div>

@@ -1,20 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
-        "space-grotesk": ["Space Grotesk", "sans-serif"]
+        "space-grotesk": ["Space Grotesk", "sans-serif"],
       },
       backgroundColor: {
-  'radial-gradient': 'radial-gradient(red, greeen, blue)',
-},
+        "radial-gradient": "radial-gradient(red, greeen, blue)",
+      },
       colors: {
-      
+        "gray-light": "#B7B7B7",
         primary: "#006DF9",
         "primary-soft-1": "#E5EEF9",
         "primary-soft-2": "#006DF914",
@@ -26,8 +23,8 @@ export default {
         "gray-text-1": "#333333",
         "gray-text-2": "#5A5A5A",
         "gray-text-3": "#898989",
-        "gray-text-4":"#C0C0C0",
-        "gray-text-5":"#A1A1A1",
+        "gray-text-4": "#C0C0C0",
+        "gray-text-5": "#A1A1A1",
         "gray-text-6": "#6C6C6D",
         "gray-text-7": "#868686",
         "gray-text-8": "#CCCCCC",
@@ -37,12 +34,9 @@ export default {
         "black-2": "#282828",
         "blue-sidebar": "#08174F",
         "gray-text-dark": "#AEC2CC",
-        error: "#E85656"
-      }
+        error: "#E85656",
+      },
     },
   },
-  plugins: [
-    require('tailwind-scrollbar-hide')
-  ],
-}
-
+  plugins: [require("tailwind-scrollbar-hide")],
+};

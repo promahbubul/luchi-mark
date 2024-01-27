@@ -5,7 +5,12 @@ import {
   IoEyeOutline,
   IoEyeOffSharp,
 } from "react-icons/io5";
-import { IoIosArrowDown, IoIosArrowForward, IoMdGrid } from "react-icons/io";
+import {
+  IoIosArrowDown,
+  IoIosArrowBack,
+  IoIosArrowForward,
+  IoMdGrid,
+} from "react-icons/io";
 import { HiOutlineSquares2X2, HiOutlineVideoCamera } from "react-icons/hi2";
 import { AiOutlineTeam, AiOutlineMessage } from "react-icons/ai";
 import { TfiWindow } from "react-icons/tfi";
@@ -16,9 +21,11 @@ import { MdOutlineComment, MdOutlinePhotoCamera } from "react-icons/md";
 import { PiListFill } from "react-icons/pi";
 import { FcGoogle } from "react-icons/fc";
 import { RiAdminLine } from "react-icons/ri";
-
+import { IoClose } from "react-icons/io5";
 
 export {
+  IoIosArrowBack,
+  IoClose,
   RiAdminLine,
   FcGoogle,
   IoEyeOffSharp,

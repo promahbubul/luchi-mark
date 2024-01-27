@@ -9,7 +9,7 @@ import {
   LuClipboard,
   RiAdminLine,
 } from "../../assets/Icons/Icons";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const SidebarLinks = ({ menu, setMenu }) => {
   const links = [
@@ -21,7 +21,7 @@ const SidebarLinks = ({ menu, setMenu }) => {
     { path: "/login", title: "Login", icons: RiAdminLine },
   ];
   return (
-    <div className="lg:mt-20 mt-14 ">
+    <div className="lg:mt-20 mt-7 ">
       {links.map((item) => (
         <NavLink
           to={item.path}

@@ -5,7 +5,7 @@ import {
   HiOutlineVideoCamera,
 } from "../../assets/Icons/Icons.jsx";
 
-const ListCard = () => {
+const ListCard = ({ setToggleSidebar }) => {
   return (
     <div className="col-span-12 grid grid-cols-12 w-full bg-gray-bg-3 py-2 px-3 rounded-md gap-2 items-center">
       <img
@@ -35,7 +35,12 @@ const ListCard = () => {
         </span>
         <div className="flex flex-row gap-4">
           <button className="font-bold text-sm  text-primary">Export</button>
-          <button className="font-bold text-sm  text-primary">Details</button>
+          <button
+            onClick={() => setToggleSidebar(true)}
+            className="font-bold text-sm  text-primary"
+          >
+            Details
+          </button>
         </div>
       </div>
     </div>
