@@ -22,8 +22,13 @@ import { PiListFill } from "react-icons/pi";
 import { FcGoogle } from "react-icons/fc";
 import { RiAdminLine } from "react-icons/ri";
 import { IoClose } from "react-icons/io5";
+import { GoShareAndroid } from "react-icons/go";
+import { TiPencil } from "react-icons/ti";
+
 
 export {
+  TiPencil,
+  GoShareAndroid,
   IoIosArrowBack,
   IoClose,
   RiAdminLine,

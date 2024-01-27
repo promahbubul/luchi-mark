@@ -21,6 +21,7 @@ const Environment = () => {
   return (
     <div>
       {/* sidebar */}
+
       {toggleSidebar ? <Sidebar setToggleSidebar={setToggleSidebar} /> : ""}
 
       <Heading handleLayoutView={handleLayoutView} layoutView={layoutView} />

@@ -21,7 +21,7 @@ const SidebarLinks = ({ menu, setMenu }) => {
     { path: "/login", title: "Login", icons: RiAdminLine },
   ];
   return (
-    <div className="lg:mt-20 mt-7 ">
+    <div className=" mt-7 ">
       {links.map((item) => (
         <NavLink
           to={item.path}

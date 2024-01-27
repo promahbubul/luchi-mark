@@ -11,7 +11,12 @@ export default {
         "radial-gradient": "radial-gradient(red, greeen, blue)",
       },
       colors: {
+        "black-soft": "#161617CC",
         "gray-light": "#B7B7B7",
+        "gray-dark": "#9D9D9D",
+        "success-soft": "#CBF0E3",
+        "warning-light": "#F8EDD0",
+        warning: "#AD8227",
         primary: "#006DF9",
         "primary-soft-1": "#E5EEF9",
         "primary-soft-2": "#006DF914",

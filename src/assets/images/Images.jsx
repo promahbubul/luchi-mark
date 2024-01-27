@@ -8,8 +8,10 @@ import avatarThree from "./avatar3.svg";
 import gridCard from "./grid-card.png";
 import blackLogo from "./black-logo.svg";
 import whtieLogo from "./white-logo.svg";
+import cardDetails from "./card-details.png";
 
 export {
+  cardDetails,
   blackLogo,
   whtieLogo,
   gridCard,
