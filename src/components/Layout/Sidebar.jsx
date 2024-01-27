@@ -11,16 +11,28 @@ import { SlMenu } from "react-icons/sl";
 import { CgCloseO } from "react-icons/cg";
 
 const Sidebar = ({ menu, setMenu }) => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [theme, setTheme] = useState(null);
 
-  const toggleTheme = () => {
-    document.documentElement.classList.toggle("dark");
-    setDarkMode(!darkMode);
+  useEffect(() => {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  }, []);
+
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [theme]);
+
+  const handleThemeSwitch = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
   };
 
-  const isDarkModeActive = () => {
-    return document.documentElement.classList.contains("dark");
-  };
   return (
     <>
       {menu ? (
@@ -78,8 +90,8 @@ const Sidebar = ({ menu, setMenu }) => {
           {/* bottom */}
           <div className=" px-5 flex flex-col gap-3">
             <div className="">
-              <button onClick={toggleTheme}>
-                {darkMode ? <OnButton /> : <OffButton />}
+              <button className="" onClick={handleThemeSwitch}>
+                {theme === "dark" ? <OnButton /> : <OffButton />}
               </button>
             </div>
             <div className="flex cursor-pointer flex-row justify-between items-center">
