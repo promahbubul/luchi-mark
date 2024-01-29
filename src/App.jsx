@@ -13,7 +13,7 @@ function App() {
       <OutlineButton className={"text-error border-error"}>
         Button
       </OutlineButton>
-      <RoundedButton className={"text-primary bg-primary-soft"}>
+      <RoundedButton className={"text-primary bg-bg-info"}>
         Button
       </RoundedButton>
     </>

@@ -17,12 +17,12 @@ const Sidebar = ({ setToggleSidebar }) => {
         <div className="flex flex-row justify-between items-center">
           <button
             onClick={() => setToggleSidebar(false)}
-            className="flex flex-row items-center gap-1 text-gray-light hover:text-black-1 duration-300"
+            className="flex flex-row items-center gap-1 text-dark-gray hover:text-black-1 duration-300"
           >
             <IoIosArrowBack />
             Back
           </button>
-          <div className="text-gray-light flex flex-row items-center gap-2">
+          <div className="text-dark-gray flex-row items-center gap-3">
             <button className="">
               <GoShareAndroid className="text-2xl hover:text-primary" />
             </button>

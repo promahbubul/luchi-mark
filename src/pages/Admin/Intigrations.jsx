@@ -8,7 +8,7 @@ const Intigrations = () => {
       <div className="">
         <textarea
           name=""
-          className="bg-gray-bg-3 mt-5 w-full h-[160px] rounded-xl"
+          className="bg-secondary p-2 outline-none  mt-5 w-full box-border h-[160px] rounded-xl"
           id=""
         ></textarea>
       </div>

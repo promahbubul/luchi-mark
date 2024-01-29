@@ -26,10 +26,10 @@ const SidebarLinks = ({ menu, setMenu }) => {
         <NavLink
           to={item.path}
           key={item.title}
-          className={`flex group items-center flex-row mb-1 gap-5 border-l-4 border-l-transparent pl-3 py-2  text-gray-text-1  dark:text-gray-text-dark  font-semibold focus:border-l-4 hover:border-l-4 hover:border-primary focus:border-l-primary   `}
+          className={`flex group items-center flex-row mb-1 gap-5 border-l-4 border-l-transparent pl-3 py-2  text-black  dark:text-gray-text-dark  font-semibold focus:border-l-4 hover:border-l-4 hover:border-primary focus:border-l-primary   `}
         >
-          <item.icons className="text-gray-text-1  dark:text-gray-text-dark  group-hover:text-primary text-xl group-focus:text-primary" />
-          <span className="group-hover:text-primary text-gray-text-1 group-focus:text-primary dark:text-gray-text-dark ">
+          <item.icons className="text-black  dark:text-secondary  group-hover:text-primary text-xl group-focus:text-primary" />
+          <span className="group-hover:text-primary text-black group-focus:text-primary dark:text-secondary">
             {item.title}
           </span>
         </NavLink>

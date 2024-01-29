@@ -7,7 +7,7 @@ import {
 
 const ListCard = ({ setToggleSidebar }) => {
   return (
-    <div className="col-span-12 grid grid-cols-12 w-full bg-gray-bg-3 py-2 px-3 rounded-md gap-2 items-center">
+    <div className="col-span-12 grid grid-cols-12 w-full bg-secondary py-2 px-3 rounded-md gap-2 items-center">
       <img
         src={taskCardImage}
         className="lg:col-span-2 md:col-span-3 border col-span-8 "
@@ -21,12 +21,12 @@ const ListCard = ({ setToggleSidebar }) => {
       <p className="col-span-6 md:col-span-10 lg:col-span-2  text-black-1 font-medium text-base">
         Contact form
       </p>
-      <div className="col-span-12 md:col-span-2 flex flex-row md:gap-1 lg:gap-4  text-black-1 font-medium text-base justify-center lg:justify-between">
+      <div className="col-span-12 md:col-span-2 flex flex-row md:gap-1 lg:gap-4  text-black-1 font-medium text-base justify-center lg:justify-start">
         <button className="">
           <MdOutlinePhotoCamera className="text-2xl cursor-pointer text-primary" />
         </button>
         <button className="">
-          <HiOutlineVideoCamera className="text-2xl  text-gray-text-6" />
+          <HiOutlineVideoCamera className="text-2xl  text-dark-gray" />
         </button>
       </div>
       <div className="col-span-12 lg:col-span-3 flex flex-row justify-between  text-black-1 font-medium text-base">

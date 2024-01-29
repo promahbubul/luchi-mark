@@ -21,7 +21,7 @@ const Teams = () => {
           <div className="col-span-full md:col-span-5 lg:col-span-3 ">
             <MainTitle>Users</MainTitle>
             <button onClick={() => setInviteModal(true)} className="">
-              <Button className={"bg-primary-soft-2 mt-3 text-primary"}>
+              <Button className={"bg-info mt-3 text-primary"}>
                 Invite new user
               </Button>
             </button>

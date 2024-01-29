@@ -31,10 +31,10 @@ const Heading = ({ handleLayoutView, layoutView }) => {
             + New Evironment
           </RoundedButton>
           <div className="flex flex-row gap-2 justify-end">
-            <div className="text-primary h-max  bg-gray-bg-3 p-2 rounded-full cursor-pointer">
+            <div className="text-primary h-max  bg-secondary p-2 rounded-full cursor-pointer">
               <IoSettingsOutline className=" text-2xl" />
             </div>
-            <div className="text-primary h-max  bg-gray-bg-3 p-2 rounded-full cursor-pointer">
+            <div className="text-primary h-max  bg-secondary p-2 rounded-full cursor-pointer">
               <IoNotificationsOutline className=" text-2xl" />
             </div>
           </div>
@@ -42,30 +42,26 @@ const Heading = ({ handleLayoutView, layoutView }) => {
         {/* right bottom */}
         <div className="mt-3 flex justify-between  flex-wrap  lg:flex-row gap-2 items-center">
           <div className="flex flex-row lg:gap-5  gap-2 md:justify-start justify-between  w-full md:w-max">
-            <Button className={"bg-primary-soft-2 text-primary"}>
-              Manage fields
-            </Button>
-            <Button className={"bg-primary-soft-2 text-primary"}>
-              Export all
-            </Button>
+            <Button className={"bg-info text-primary"}>Manage fields</Button>
+            <Button className={"bg-info text-primary"}>Export all</Button>
           </div>
           <div className="">
             <button onClick={() => handleLayoutView("list")} className="">
               <PiListFill
                 className={`text-2xl ${
-                  layoutView === "list" ? " text-primary" : " text-gray-text-5"
+                  layoutView === "list" ? " text-primary" : " text-dark-gray"
                 }  `}
               />
             </button>
             <button onClick={() => handleLayoutView("grid")} className="">
               <IoMdGrid
                 className={`text-2xl ${
-                  layoutView === "grid" ? " text-primary" : " text-gray-text-5"
+                  layoutView === "grid" ? " text-primary" : " text-dark-gray"
                 }`}
               />
             </button>
           </div>
-          <p className="text-gray-text-5 text-xs font-medium leading-normal">
+          <p className="text-dark-gray text-xs font-medium leading-normal">
             Order by <span className="text-primary font-bold">Last edit</span>
           </p>
         </div>

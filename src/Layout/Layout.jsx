@@ -7,7 +7,7 @@ const Layout = () => {
 
   console.log(menu);
   return (
-    <div className="bg-gradient-to-b from-primary-soft-1 to-primary-soft-2">
+    <div className="bg-gradient-to-b from-bg-info-1 to-bg-info-2">
       <div className="flex md:flex-row flex-col max-w-screen-2xl mx-auto bg-white ">
         {/* Sidebar */}
         <Sidebar menu={menu} setMenu={setMenu} />

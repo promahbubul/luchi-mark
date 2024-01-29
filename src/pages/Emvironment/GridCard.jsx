@@ -32,16 +32,16 @@ const GridCard = ({ setToggleSidebar }) => {
         </div>
         <div className="flex flex-col  lg:flex-row justify-between md:p-2 lg:mt-0 mt-2">
           <div className="flex flex-row justify-between md:gap-2">
-            <button className="text-primary bg-primary-soft-2  rounded-full flex flex-row gap-1.5 px-3 py-1 items-center">
+            <button className="text-primary bg-info  rounded-full flex flex-row gap-1.5 px-3 py-1 items-center">
               <span className="md:text-base text-sm">3</span>
               <IoEyeOutline className="text-sm md:text-xl " />
             </button>
-            <button className="text-primary bg-primary-soft-2  rounded-full flex flex-row gap-1.5 px-3 py-1 items-center">
+            <button className="text-primary bg-info  rounded-full flex flex-row gap-1.5 px-3 py-1 items-center">
               <span className="md:text-base text-sm">1</span>
               <AiOutlineMessage className="text-sm md:text-xl" />
             </button>
           </div>
-          <p className="text-gray-text-5 text-xs font-medium leading-normal text-end mt-2 lg:mt-0">
+          <p className="text-dark-gray text-xs font-medium leading-normal text-end mt-2 lg:mt-0">
             2 days ago
           </p>
         </div>

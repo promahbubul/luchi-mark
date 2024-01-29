@@ -28,7 +28,7 @@ const TaskCard = () => {
       />
       <div className="flex flex-row justify-between mt-3">
         {/* left */}
-        <div className=" text-gray-text-4 flex flex-row gap-2">
+        <div className=" text-secondary flex flex-row gap-2">
           <div className="flex flex-row gap-1 items-center">
             <GrAttachment className="text-sm" />
             <span className="text-xs font-medium leading-4">4</span>

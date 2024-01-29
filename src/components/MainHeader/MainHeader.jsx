@@ -7,7 +7,7 @@ const MainHeader = () => {
     <div>
       <div className="flex flex-row justify-between items-center">
         <PageTitle>Environment</PageTitle>
-        <span className="text-primary bg-primary-soft-2 p-2 rounded-md cursor-pointer">
+        <span className="text-primary bg-info p-2 rounded-md cursor-pointer">
           <IoSettingsOutline className=" text-2xl" />
         </span>
       </div>

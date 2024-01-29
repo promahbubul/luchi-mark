@@ -6,22 +6,22 @@ const Listview = ({ environments, setToggleSidebar }) => {
     <div className="grid grid-cols-12 mt-5">
       {/* List Heading */}
       <div className="col-span-12 mb-3 gap-2 px-2 lg:grid grid-cols-12 w-full hidden   ">
-        <h5 className="text-gray-text-5 text-sm font-medium leading-normal col-span-2 ">
+        <h5 className="text-dark-gray text-sm font-medium leading-normal col-span-2 ">
           Preview
         </h5>
-        <h5 className="text-gray-text-5 text-sm font-medium leading-normal col-span-1 ">
+        <h5 className="text-dark-gray text-sm font-medium leading-normal col-span-1 ">
           Number
         </h5>
-        <h5 className="text-gray-text-5 text-sm font-medium leading-normal col-span-2 ">
+        <h5 className="text-dark-gray text-sm font-medium leading-normal col-span-2 ">
           Request/Type
         </h5>
-        <h5 className="text-gray-text-5 text-sm font-medium leading-normal col-span-2 ">
+        <h5 className="text-dark-gray text-sm font-medium leading-normal col-span-2 ">
           Description
         </h5>
-        <h5 className="text-gray-text-5 text-sm font-medium leading-normal col-span-2 ">
+        <h5 className="text-dark-gray text-sm font-medium leading-normal col-span-2 ">
           Media
         </h5>
-        <h5 className="text-gray-text-5 text-sm font-medium leading-normal col-span-3 ">
+        <h5 className="text-dark-gray text-sm font-medium leading-normal col-span-3 ">
           Status
         </h5>
       </div>

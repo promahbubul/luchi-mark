@@ -25,11 +25,11 @@ const LoginForm = () => {
         <div className="text-center mx-auto mt-8 md:mt-10">
           <img src={blackLogo} alt="" className=" mx-auto" />
           <h1 className="text-4xl leading-8 font-normal mt-6">Welcome</h1>
-          <p className="text-gray-text-7  mt-3 leading-8 text-sm font-normal">
+          <p className="text-dark-gray  mt-3 leading-8 text-sm font-normal">
             Please enter your details
           </p>
         </div>
-        <form onSubmit={handleLogin} className="mt-7 md:mt-10">
+        <form onSubmit={handleLogin} className="mt-5 md:mt-7">
           <div className="">
             <input
               name="email"
@@ -60,13 +60,13 @@ const LoginForm = () => {
                 onClick={() => {
                   setTypeChange(!typeChange);
                 }}
-                className="text-gray-text-8 text-2xl absolute top-[14px] cursor-pointer hover:text-primary right-3"
+                className="text-dark-gray text-2xl absolute top-[14px] cursor-pointer hover:text-primary right-3"
               />
             )}
           </div>
           <Link
             to={""}
-            className="text-gray-text-7 hover:text-primary block mt-2 text-xs font-medium leading-8 text-right"
+            className="text-dark-gray hover:text-primary block mt-2 text-xs font-medium leading-8 text-right"
           >
             Forgot Password?
           </Link>
@@ -76,7 +76,7 @@ const LoginForm = () => {
             value="Log In"
             className="text-white py-3 rounded-lg bg-primary w-full mt-7 leading-8 font-medium text-sm cursor-pointer"
           />
-          <button className="bg-gray-bg-5 w-full rounded-lg flex flex-row gap-3 items-center py-3 justify-center mt-3 leading-8 text-sm text-black-2 font-medium">
+          <button className="bg-secondary w-full rounded-lg flex flex-row gap-3 items-center py-3 justify-center mt-3 leading-8 text-sm text-black-2 font-medium">
             <FcGoogle className="text-2xl" />
             Log in with Google
           </button>

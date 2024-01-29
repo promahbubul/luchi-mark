@@ -4,12 +4,15 @@ import SectionTittle from "../../components/ui/SectionTittle";
 const PersonalInformation = () => {
   return (
     <div className="">
-      <SectionTittle>Personal information</SectionTittle>
+      <div className="flex flex-row justify-between items-center">
+        <SectionTittle>Personal information</SectionTittle>
+        <button className="text-primary text-sm font-medium">Edit</button>
+      </div>
       <div className="grid grid-cols-2 gap-5 mt-4">
         <div className="flex flex-col">
           <label
             htmlFor=""
-            className="text-xs font-medium  text-gray-text-3 leading-8"
+            className="text-xs font-medium  text-dark-gray leading-8"
           >
             First Name
           </label>
@@ -17,14 +20,14 @@ const PersonalInformation = () => {
             placeholder="First Name"
             type="text"
             name=""
-            className="py-2 px-5 border placeholder:text-black-1 placeholder:text-sm placeholder:font-medium border-gray-input-border rounded-md focus:border-primary outline-primary"
+            className="py-2 px-5 border placeholder:text-black placeholder:text-sm placeholder:font-medium border-gray-input-border rounded-md focus:border-primary outline-primary"
             id=""
           />
         </div>
         <div className="flex flex-col">
           <label
             htmlFor=""
-            className="text-xs font-medium  text-gray-text-3 leading-8"
+            className="text-xs font-medium  text-dark-gray leading-8"
           >
             Password
           </label>
@@ -32,14 +35,14 @@ const PersonalInformation = () => {
             placeholder="First Name"
             type="text"
             name=""
-            className="py-2 px-5 border placeholder:text-black-1 placeholder:text-sm placeholder:font-medium  border-gray-input-border rounded-md focus:border-primary outline-primary"
+            className="py-2 px-5 border placeholder:text-black placeholder:text-sm placeholder:font-medium  border-gray-input-border rounded-md focus:border-primary outline-primary"
             id=""
           />
         </div>
         <div className="flex flex-col">
           <label
             htmlFor=""
-            className="text-xs font-medium  text-gray-text-3 leading-8"
+            className="text-xs font-medium  text-dark-gray leading-8"
           >
             Last Name
           </label>
@@ -47,14 +50,14 @@ const PersonalInformation = () => {
             placeholder="First Name"
             type="text"
             name=""
-            className="py-2 px-5 border placeholder:text-black-1 placeholder:text-sm placeholder:font-medium  border-gray-input-border rounded-md focus:border-primary outline-primary"
+            className="py-2 px-5 border placeholder:text-black placeholder:text-sm placeholder:font-medium  border-gray-input-border rounded-md focus:border-primary outline-primary"
             id=""
           />
         </div>
         <div className="flex flex-col">
           <label
             htmlFor=""
-            className="text-xs font-medium  text-gray-text-3 leading-8"
+            className="text-xs font-medium  text-dark-gray leading-8"
           >
             Email
           </label>
@@ -62,7 +65,7 @@ const PersonalInformation = () => {
             placeholder="First Name"
             type="text"
             name=""
-            className="py-2 px-5 border placeholder:text-black-1 placeholder:text-sm placeholder:font-medium  border-gray-input-border rounded-md focus:border-primary outline-primary"
+            className="py-2 px-5 border placeholder:text-black placeholder:text-sm placeholder:font-medium  border-gray-input-border rounded-md focus:border-primary outline-primary"
             id=""
           />
         </div>

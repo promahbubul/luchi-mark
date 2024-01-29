@@ -55,7 +55,7 @@ const Sidebar = ({ menu, setMenu }) => {
         ""
       )}
       <section
-        className={`bg-gray-bg-1    z-10 duration-300 transition-transform  md:block md:w-[320px] h-screen py-5 box-border dark:bg-blue-sidebar ${
+        className={`bg-secondary    z-10 duration-300 transition-transform  md:block md:w-[320px] h-screen py-5 box-border dark:bg-blue ${
           menu ? "fixed w-10/12" : "hidden"
         }`}
       >
@@ -78,7 +78,7 @@ const Sidebar = ({ menu, setMenu }) => {
                   ""
                 )}
               </div>
-              <button className="bg-primary-soft-2 dark:bg-primary dark:text-white text-primary text-sm font-medium leading-normal py-3 rounded-full w-full">
+              <button className="bg-info dark:bg-primary dark:text-white text-primary text-sm font-medium leading-normal py-3 rounded-full w-full">
                 New Environment
               </button>
             </div>
@@ -97,18 +97,18 @@ const Sidebar = ({ menu, setMenu }) => {
             <div className="flex cursor-pointer flex-row justify-between items-center">
               <div className="flex flex-row gap-2 items-center">
                 <img src={avatar} alt="" className="" />
-                <h4 className="text-sm text-gray-text-1 dark:text-gray-text-dark font-semibold">
+                <h4 className="text-sm text-black dark:text-secondary font-semibold">
                   Liam Trampota
                 </h4>
               </div>
-              <IoIosArrowForward className="text-gray-text-1 dark:text-gray-text-dark " />
+              <IoIosArrowForward className="text-secondary dark:text-gray-text-dark " />
             </div>
             <div className="flex cursor-pointer flex-row justify-between items-center">
               <div className="flex flex-row gap-2 items-center">
                 <div className="bg-primary p-2 rounded-full">
                   <IoNotificationsOutline className="text-white text-xl" />
                 </div>
-                <h4 className="text-sm font-semibold text-gray-text-1 dark:text-gray-text-dark">
+                <h4 className="text-sm font-semibold text-black dark:text-secondary">
                   Notifications
                 </h4>
               </div>
